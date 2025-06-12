@@ -1,8 +1,8 @@
 import { NavItem, Product, Project } from './types';
 
-export const LOGO_URL = "/images/logo.jpeg";
-export const SOLAR_ARRAY_URL = "/images/ges-3.jpeg";
-export const SOLAR_STRUCTURE_URL = "/images/ges-8.jpeg";
+export const LOGO_URL = "/logo.jpeg";
+export const SOLAR_ARRAY_URL = "/ges-3.jpeg";
+export const SOLAR_STRUCTURE_URL = "/ges-8.jpeg";
 
 export const NAVIGATION_ITEMS: NavItem[] = [
   { name: 'Anasayfa', href: '#hero' },
@@ -32,14 +32,14 @@ export const PRODUCTS_DATA: Product[] = [
     id: '3',
     name: 'Özel Tasarım Konstrüksiyonlar',
     description: 'Her türlü arazi ve çatı tipine uygun, projenizin özel ihtiyaçlarına göre tasarlanmış mühendislik harikası güneş paneli taşıyıcı sistemleri.',
-    imageUrl: '/images/ges-10.jpeg',
+    imageUrl: '/ges-10.jpeg',
     features: ['Proje Bazlı Çözümler', 'Yüksek Mukavemet', 'Farklı Zemin Tiplerine Uyum', 'Korozyona Karşı Direnç']
   },
    {
     id: '4',
     name: 'Solar Sulama Sistemleri',
     description: 'Tarımsal sulama ihtiyaçlarınız için şebekeden bağımsız, çevre dostu ve ekonomik güneş enerjili pompa sistemleri. Su kaynaklarınızı verimli kullanın.',
-    imageUrl: '/images/ges-9.jpeg',
+    imageUrl: '/ges-9.jpeg',
     features: ['Şebekeden Bağımsız Çalışma', 'Düşük İşletme Maliyeti', 'Çevre Dostu', 'Otomatik Kontrol Seçenekleri']
   }
 ];
