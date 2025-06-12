@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidromex - Yenilenebilir Enerji Çözümleri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#1A365D', // Deep Blue (Used for headings, primary buttons, footer bg)
+              secondary: '#48BB78', // Green (Used for project cards, success indicators)
+              accent: '#F59E0B',  // Amber/Orange (Used for CTAs, highlights, icons)
+              lightBg: '#F7FAFC', // Very Light Gray (Used for section backgrounds)
+              darkText: '#2D3748', // Dark Gray (Default text color)
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        @keyframes fade-in-down {
+          0% {
+            opacity: 0;
+            transform: translateY(-20px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        @keyframes fade-in-up {
+          0% {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fade-in-down {
+          animation: fade-in-down 0.8s ease-out forwards;
+        }
+        .animate-fade-in-up {
+          animation: fade-in-up 0.8s ease-out forwards;
+        }
+        /* Smooth scroll for all browsers */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-lightBg">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
