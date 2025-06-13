@@ -193,7 +193,15 @@ const App: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Bize Ulaşın</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Sorularınız, projeleriniz veya teklif talepleriniz için bizimle iletişime geçmekten çekinmeyin.</p>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">Size yardımcı olmak için buradayız!<br/>
+
+              Ürünlerimiz, hizmetlerimiz veya iş birlikleri hakkında merak ettiğiniz her konuda bize kolayca ulaşabilirsiniz. İster telefonla, ister e-posta yoluyla, ister form aracılığıyla bizimle iletişime geçin – size en kısa sürede dönüş yapmaktan memnuniyet duyarız.<br/>
+
+              Görüşleriniz, önerileriniz ve geri bildirimleriniz bizim için çok değerli. Çünkü biz, sizden gelen her mesajı gelişimimiz için bir fırsat olarak görüyoruz.<br/>
+
+              Sorularınız mı var?<br/>
+              Ekibimiz size yardımcı olmak için hazır!
+            </p>
             <div className="w-24 h-1 bg-accent mx-auto mt-2"></div>
           </div>
           
