@@ -91,8 +91,12 @@ export const ABOUT_US_IMAGE_URL = "https://picsum.photos/seed/aboutus/800/600";
 
 
 export const CONTACT_INFO = {
-  address: "Örnek Mah. Teknoloji Cad. No:123, Teknopark, İstanbul, Türkiye",
-  phone: "+90 212 555 44 33",
+  address: "Erenler / SAKARYA\n" +
+      "HİDROMEX\n" +
+      "Erenler Mahallesi , No: [9],\n" +
+      "[Erenler] / [SAKARYA] / [TÜRKİYE]\n" +
+      "Posta Kodu: [54100]\n",
+  phone: "+90 (545) 542 19 19",
   email: "info@hidromex.com.tr",
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.388129626818!2d28.97479231538064!3d41.01591197929993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9c51c8a1f8d%3A0x50e9b0f0b0c0f0!2sIstanbul%2C%20Turkey!5e0!3m2!1sen!2str!4v1620208163000!5m2!1sen!2str" // Example map
 };

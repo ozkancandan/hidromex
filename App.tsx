@@ -217,7 +217,8 @@ const App: React.FC = () => {
               <div className="mt-8">
                 <h4 className="text-lg font-semibold text-primary mb-2">Çalışma Saatleri</h4>
                 <p className="text-gray-600">Pazartesi - Cuma: 09:00 - 18:00</p>
-                <p className="text-gray-600">Cumartesi: 09:00 - 13:00</p>
+                <p className="text-gray-600">Cumartesi: 10:00 - 14:00</p>
+                <p className="text-gray-600">Pazar: Kapalı</p>
               </div>
             </div>
             
