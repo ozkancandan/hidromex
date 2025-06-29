@@ -86,6 +86,29 @@ const App: React.FC = () => {
     "support": SupportIcon
   };
 
+  // Form submit handler
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const data = {
+      name: (form.elements.namedItem('name') as HTMLInputElement).value,
+      email: (form.elements.namedItem('email') as HTMLInputElement).value,
+      phone: (form.elements.namedItem('phone') as HTMLInputElement).value,
+      message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
+    };
+    const res = await fetch('/api/sendMail', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+    if (res.ok) {
+      alert('Mesajınız gönderildi!');
+      form.reset();
+    } else {
+      alert('Bir hata oluştu, lütfen tekrar deneyin.');
+    }
+  };
+
   return (
     <div className="font-sans bg-lightBg text-darkText">
       <Header />
@@ -232,7 +255,7 @@ const App: React.FC = () => {
             
             <div className="bg-gray-50 p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold text-primary mb-6">Mesaj Gönderin</h3>
-              <form action="#" method="POST" className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700">Adınız Soyadınız</label>
                   <input type="text" name="name" id="name" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-accent focus:border-accent sm:text-sm" />
