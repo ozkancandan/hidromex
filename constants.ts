@@ -98,5 +98,5 @@ export const CONTACT_INFO = {
       "Posta Kodu: [54100]\n",
   phone: "+90 (545) 542 19 19",
   email: "info@hidromex.com.tr",
-  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.388129626818!2d28.97479231538064!3d41.01591197929993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9c51c8a1f8d%3A0x50e9b0f0b0c0f0!2sIstanbul%2C%20Turkey!5e0!3m2!1sen!2str!4v1620208163000!5m2!1sen!2str" // Example map
+  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.073282365654!2d30.40096431540644!3d40.7556879793277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb0e2e2e2e2e3%3A0x1234567890abcdef!2sErenler%2C%20Erenler%20Mahallesi%2C%20No%3A%209%2C%20Sakarya%2C%20T%C3%BCrkiye!5e0!3m2!1str!2str!4v1718040000000!5m2!1str!2str" // Erenler Mahallesi, No: 9, Erenler, Sakarya, Türkiye
 };
