@@ -116,9 +116,9 @@ const App: React.FC = () => {
       {/* Hero Section */}
       <section id="hero" className="relative h-screen flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: `linear-gradient(rgba(26, 54, 93, 0.7), rgba(26, 54, 93, 0.5)), url(${SOLAR_ARRAY_URL})` }}>
         <div className="text-center text-white p-4 z-10">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in-down">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight animate-fade-in-down">
             {HERO_TITLE}
-          </h1>
+          </h2>
           <p className="text-lg sm:text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-fade-in-up">
             {HERO_SUBTITLE}
           </p>
@@ -226,6 +226,125 @@ const App: React.FC = () => {
               Ekibimiz size yardımcı olmak için hazır!
             </p>
             <div className="w-24 h-1 bg-accent mx-auto mt-2"></div>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
+            <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6">
+              Güneş Paneli Taşıyıcı Sistemler: Yapısal Özellikler, Türler ve Uygulamalar
+            </h1>
+
+            {/* Giriş */}
+            <div className="mb-8 space-y-4">
+              <p>
+                Enerji üretimi ve tüketimi, günümüzde çevresel sürdürülebilirlik açısından kritik bir konudur. Fosil yakıtların tükeniyor olması, iklim değişikliği ve enerji güvenliği sorunları, yenilenebilir enerji kaynaklarına yönelimi artırmıştır. Bu bağlamda, <strong>güneş enerjisi sistemleri</strong> çevre dostu ve ekonomik çözümler sunarak öne çıkmaktadır.
+              </p>
+              <p>
+                Güneş enerjisi sistemlerinin temelini <strong>fotovoltaik (PV) paneller</strong> oluşturur. Ancak bu panellerin maksimum verimle çalışabilmesi için uygun <strong>taşıyıcı sistemler</strong> gereklidir.
+              </p>
+            </div>
+
+            {/* Güneş Paneli Taşıyıcı Sistem Nedir */}
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold text-primary mb-2">Güneş Paneli Taşıyıcı Sistem Nedir?</h2>
+              <p>
+                <strong>Güneş paneli taşıyıcı sistem</strong>, panellerin güvenli bir şekilde sabitlenmesini sağlayan, mekanik ve yapısal bir çerçevedir. Bu sistemler yalnızca destek sağlamakla kalmaz; aynı zamanda panelin konumunu optimize ederek <strong>güneş ışığını maksimum düzeyde toplamasına</strong> yardımcı olur.
+              </p>
+              <h3 className="text-lg font-semibold mt-4 mb-1">Temel İşlevler:</h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li><strong>Mekanik Destek:</strong> Panellerin sağlam bir şekilde sabitlenmesini sağlar.</li>
+                <li><strong>Yönlendirme:</strong> Panel açısını güneşe göre ayarlayarak verimi artırır.</li>
+                <li><strong>Çevresel Koruma:</strong> Rüzgar, kar ve yağmur gibi etkenlerden korur.</li>
+              </ul>
+            </div>
+
+            {/* Taşıyıcı Sistem Türleri */}
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold text-primary mb-2">Taşıyıcı Sistem Türleri</h2>
+              <div className="space-y-2">
+                <h3 className="font-semibold">1. Sabit Açılı Sistemler</h3>
+                <p>Basit yapılı ve düşük maliyetli olan bu sistemlerde paneller belirli bir açıda sabitlenir. Güneş açısının değişimine uyum sağlayamazlar.</p>
+
+                <h3 className="font-semibold">2. Ayarlanabilir Sistemler</h3>
+                <p>Panel açısı manuel veya yarı otomatik olarak değiştirilebilir. Mevsime göre ayarlanarak daha fazla enerji üretimi sağlanabilir.</p>
+
+                <h3 className="font-semibold">3. İzleyici (Tracking) Sistemler</h3>
+                <ul className="list-disc list-inside ml-4">
+                  <li><strong>Tek Eksenli:</strong> Paneller doğu-batı yönünde hareket eder.</li>
+                  <li><strong>Çift Eksenli:</strong> Paneller her iki eksende güneşi izler.</li>
+                </ul>
+
+                <h3 className="font-semibold">4. Montaj Tipine Göre Sistemler</h3>
+                <ul className="list-disc list-inside ml-4">
+                  <li><strong>Zemin Üstü Sistemler:</strong> Büyük arazilerde, kazıklı veya beton temelli kurulum yapılır.</li>
+                  <li><strong>Çatı Üstü Sistemler:</strong> Ev ve sanayi çatılarına monte edilir.</li>
+                  <li><strong>Cephe Sistemleri (BIPV):</strong> Binaların cephelerine entegre edilir.</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Malzeme Seçimi ve Yapısal Tasarım */}
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold text-primary mb-2">Malzeme Seçimi ve Yapısal Tasarım</h2>
+              <div className="space-y-2">
+                <h3 className="font-semibold">1. Alüminyum</h3>
+                <p>Hafif, paslanmaz ve montajı kolaydır. Özellikle kıyı bölgelerde tercih edilir.</p>
+                <h3 className="font-semibold">2. Galvanizli Çelik</h3>
+                <p>Yüksek dayanım ve uygun maliyet sunar. Galvaniz kaplama sayesinde paslanmaya karşı dirençlidir.</p>
+                <h3 className="font-semibold">3. Paslanmaz Çelik</h3>
+                <p>Zorlu iklim koşullarında dayanıklılığı ile tercih edilir ancak maliyeti daha yüksektir.</p>
+                <h3 className="font-semibold">4. Kompozit ve Geri Dönüştürülmüş Malzemeler</h3>
+                <p>Çevre dostu ve hafif yapılarıyla öne çıkar, ancak uzun vadeli dayanıklılıkları hâlâ gözlemlenmektedir.</p>
+                <p className="mt-2"><strong>Not:</strong> Rüzgâr yükü, kar yükü, deprem ve coğrafi koşullar tasarımda dikkate alınmalıdır.</p>
+              </div>
+            </div>
+
+            {/* Kurulum, Bakım ve Maliyet */}
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold text-primary mb-2">Kurulum, Bakım ve Maliyet</h2>
+              <ul className="list-disc list-inside space-y-1">
+                <li><strong>Kurulum Süresi:</strong> Ön üretimli sistemler daha kısa sürede monte edilir.</li>
+                <li><strong>İş Gücü:</strong> Gelişmiş sistemlerde daha fazla uzmanlık gerekir.</li>
+                <li><strong>Bakım:</strong> Sabit sistemlerde az, izleyici sistemlerde motor ve sensör bakımı gerekir.</li>
+              </ul>
+              <p className="mt-2"><strong>Yatırım Maliyeti:</strong> Güneş enerjisi projelerinde taşıyıcı sistemler genellikle toplam maliyetin %10–15’ini oluşturur.</p>
+            </div>
+
+            {/* Sürdürülebilirlik ve Yerli Üretim */}
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold text-primary mb-2">Sürdürülebilirlik ve Yerli Üretim</h2>
+              <p>
+                Geri dönüştürülebilir malzemeler ile üretilen taşıyıcı sistemler çevreye duyarlıdır. Türkiye'de yerli üretim yapan birçok firma, alüminyum ve galvanizli çelik sistemleri piyasaya sunmaktadır.
+              </p>
+              <p>
+                <strong>KOSGEB ve devlet destekleri</strong> sayesinde bu alandaki yerli yatırımlar artmakta ve enerji alanında dışa bağımlılık azalmaktadır.
+              </p>
+            </div>
+
+            {/* Sonuç */}
+            <div className="mb-8">
+              <h2 className="text-2xl font-semibold text-primary mb-2">Sonuç</h2>
+              <p>
+                <strong>Güneş paneli taşıyıcı sistemleri</strong>, sadece panelleri taşıyan bir yapı değil; verimli ve sürdürülebilir enerji üretiminin temel bir bileşenidir. Uygun malzeme seçimi, doğru sistem türü ve yerli üretim olanakları, projelerin başarısını doğrudan etkiler.
+              </p>
+            </div>
+
+            {/* SSS */}
+            <div>
+              <h2 className="text-2xl font-semibold text-primary mb-2">SSS: Sık Sorulan Sorular</h2>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold">Güneş paneli taşıyıcı sistem fiyatları ne kadar?</h3>
+                  <p>Genellikle proje maliyetinin %10–15’i kadardır. Malzeme ve montaj tipine göre değişiklik gösterir.</p>
+                </div>
+                <div>
+                  <h3 className="font-semibold">Çatı için hangi taşıyıcı sistem kullanılmalı?</h3>
+                  <p>Alüminyum veya galvanizli çelik sistemler çatı eğimine ve rüzgâr yüküne göre tercih edilir.</p>
+                </div>
+                <div>
+                  <h3 className="font-semibold">İzleyici sistem mi sabit sistem mi tercih edilmeli?</h3>
+                  <p>İzleyici sistemler %20–40 daha fazla enerji üretir, ancak kurulum ve bakım maliyeti daha yüksektir.</p>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div className="grid md:grid-cols-2 gap-10 items-start">
