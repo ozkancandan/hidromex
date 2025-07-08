@@ -25,6 +25,7 @@ module.exports = async (req, res) => {
     await transporter.sendMail({
       from: `Hidromex İletişim <${process.env.MAIL_USER}>`,
       to: 'info@hidromex.com.tr',
+      cc: 'ozkancandan@gmail.com',
       subject: `Yeni İletişim Formu Mesajı - ${name}`,
       text: `Ad: ${name}\nEmail: ${email}\nTelefon: ${phone}\nMesaj: ${message}`,
       replyTo: email,
