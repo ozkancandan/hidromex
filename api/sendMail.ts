@@ -12,13 +12,12 @@ module.exports = async (req, res) => {
   const { name, email, phone, message } = req.body;
 
   const transporter = nodemailer.createTransport({
-    // Eğer info@hidromex.com.tr Office365 ise host: 'smtp.office365.com', port: 587, secure: false kullanın
-    host: 'smtp.yandex.com', // Gerekirse 'smtp.office365.com' ile değiştirin
+    host: 'smtp.gmail.com',
     port: 465,
-    secure: true,
+    secure: true, // 465 için true, 587 için false
     auth: {
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS,
+      user: 'hidromexdanismanlik@gmail.com',
+      pass: 'kucukoz*2025',
     },
   });
 
