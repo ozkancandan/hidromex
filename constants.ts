@@ -67,7 +67,7 @@ export const PRODUCTS_DATA: Product[] = [
     id: '8',
     name: 'Tek Çit Sistemleri',
     description: 'Basit ve etkili güvenlik çözümü sunan tek çit sistemleri. Ekonomik fiyat avantajı ile temel güvenlik ihtiyaçlarınızı karşılar. Galvanizli tel veya çelik malzemeden üretilen, dayanıklı ve uzun ömürlü çit sistemleri.',
-    imageUrl: '/cit-4.jpg',
+    imageUrl: '/cit-5.jpg',
     features: ['Ekonomik Çözüm', 'Hızlı Kurulum', 'Dayanıklı Malzeme', 'Düşük Bakım Maliyeti', 'Çeşitli Tel Seçenekleri']
   }
 ];
