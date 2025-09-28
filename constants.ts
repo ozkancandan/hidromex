@@ -25,7 +25,7 @@ export const PRODUCTS_DATA: Product[] = [
     id: '2',
     name: 'Çatı Tipi Güneş Paneli Sistemleri',
     description: 'Evsel, ticari ve endüstriyel çatılar için estetik ve sağlam montaj çözümleri. Alanınızı en verimli şekilde kullanarak enerji maliyetlerinizi düşürün.',
-    imageUrl: SOLAR_STRUCTURE_URL, // This image shows a structure, good for illustrating mounting systems.
+    imageUrl: SOLAR_STRUCTURE_URL,
     features: ['Estetik Tasarım', 'Çatı Dostu Montaj', 'Maksimum Alan Kullanımı', 'Uzun Ömürlü Performans']
   },
   {
@@ -35,12 +35,40 @@ export const PRODUCTS_DATA: Product[] = [
     imageUrl: '/ges-10.jpeg',
     features: ['Proje Bazlı Çözümler', 'Yüksek Mukavemet', 'Farklı Zemin Tiplerine Uyum', 'Korozyona Karşı Direnç']
   },
-   {
+  {
     id: '4',
     name: 'Solar Sulama Sistemleri',
     description: 'Tarımsal sulama ihtiyaçlarınız için şebekeden bağımsız, çevre dostu ve ekonomik güneş enerjili pompa sistemleri. Su kaynaklarınızı verimli kullanın.',
     imageUrl: '/ges-9.jpeg',
     features: ['Şebekeden Bağımsız Çalışma', 'Düşük İşletme Maliyeti', 'Çevre Dostu', 'Otomatik Kontrol Seçenekleri']
+  },
+  {
+    id: '5',
+    name: 'Panel Çit Sistemleri',
+    description: 'Modern ve estetik görünüm sunan panel çit sistemleri. Yüksek dayanıklılık ve kolay montaj özellikleriyle bahçe, site ve ticari alanlar için ideal güvenlik çözümü. Galvanizli çelik malzemeden üretilmiş, uzun ömürlü ve bakım gerektirmeyen yapısıyla öne çıkar.',
+    imageUrl: '/cit-1.jpg',
+    features: ['Yüksek Dayanıklılık', 'Kolay Montaj', 'Estetik Görünüm', 'Bakım Gerektirmez', 'Çeşitli Yükseklik Seçenekleri']
+  },
+  {
+    id: '6',
+    name: 'Galvaniz Panjur Çit',
+    description: 'Güvenlik ve estetik bir arada sunan galvaniz panjur çit sistemleri. Özel tasarım panjur yapısı sayesinde hem görsel hem de fiziksel engel oluşturur. Galvaniz kaplama sayesinde paslanmaya karşı dirençli, uzun ömürlü ve ekonomik çözüm.',
+    imageUrl: '/cit-2.jpg',
+    features: ['Çift Fonksiyonlu Tasarım', 'Paslanmaya Karşı Direnç', 'Yüksek Güvenlik', 'Modern Görünüm', 'Uzun Ömürlü Malzeme']
+  },
+  {
+    id: '7',
+    name: 'Çim Çit Sistemleri',
+    description: 'Doğal ve çevre dostu çim çit sistemleri. Yapay çim malzemesi kullanılarak üretilen bu çitler, hem estetik hem de pratik bir çözüm sunar. Su geçirgen yapısı ve doğal görünümü ile bahçe ve peyzaj alanları için mükemmel seçim.',
+    imageUrl: '/cit-3.jpeg',
+    features: ['Doğal Görünüm', 'Su Geçirgen Yapı', 'Çevre Dostu', 'Kolay Temizlik', 'UV Dayanıklı']
+  },
+  {
+    id: '8',
+    name: 'Tek Çit Sistemleri',
+    description: 'Basit ve etkili güvenlik çözümü sunan tek çit sistemleri. Ekonomik fiyat avantajı ile temel güvenlik ihtiyaçlarınızı karşılar. Galvanizli tel veya çelik malzemeden üretilen, dayanıklı ve uzun ömürlü çit sistemleri.',
+    imageUrl: '/cit-4.jpg',
+    features: ['Ekonomik Çözüm', 'Hızlı Kurulum', 'Dayanıklı Malzeme', 'Düşük Bakım Maliyeti', 'Çeşitli Tel Seçenekleri']
   }
 ];
 
